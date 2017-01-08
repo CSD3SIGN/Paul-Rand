@@ -1,0 +1,221 @@
+/* ------ CSS RESET ------ */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+
+/* ------ GENERIC CONTENT ------ */
+
+body {
+    width: 100%;
+    font-size: 130%;
+    margin: auto;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.8;
+    background-color: #C9CBCC;
+}
+
+.section1 {
+    background-color: #717274;
+    margin-top: 2.3em;
+}
+
+.section2 {
+    background-color: #F6F9FA;
+}
+
+.section {
+    color: whitesmoke;
+}
+
+.section4 {
+    background-color: #F6F9FA;
+}
+
+.section5 {
+    color: whitesmoke;
+    position: relative;
+    top: 10px;
+}
+
+.sectionBackground4 {
+    background-color: #F6F9FA;
+    width: 100%;
+}
+
+.sectionBackground5 {
+    background-color: #717274;
+    width: 100%;
+}
+
+.titleStyle1 {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    width: 50%;
+    text-align: center;
+    bottom: 50px;
+}
+
+.titleCenter {
+    padding-top: 7px;
+    width: 50%;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: .5em;
+}
+
+.sectionCenter {
+    padding-top: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.quote1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.quote2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.quote3 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.sectionFix {
+    position: relative;
+    top: -20px;
+}
+
+.sectionBio {
+    position: relative;
+    top: 10px;
+}
+
+.sectionBio1 {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* ------ TYPOGRAPHY ------ */
+
+h1,
+h2,
+h3 {
+    width: 100%;
+    max-width: 900px;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    left: 25%;
+    margin-right: -50%;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 1.35em;
+    font-weight: normal;
+    color: #DBDADA;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.25em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    font-style: normal;
+}
+
+h3 {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+blockquote {
+    padding: 1em 0 2em 1em;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0;
+    text-align: center;
+}
+
+blockquote cite {
+    font-size: .75em;
+}
+
+blockquote p {
+    color: #777;
+    hanging-punctuation: first;
+    text-indent: -0.5em;
+}
+
+
+/*------ NAV ------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/*------ FOOTER ------*/
+
+footer {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
