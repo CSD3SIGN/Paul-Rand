@@ -19,6 +19,49 @@ body {
     background-color: #C9CBCC;
 }
 
+.parallax1 {
+    background-image: url("/images/thepaulrand.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("/images/IBM2.jpg");
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    background-image: url("/images/awards1.JPG");
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    background-image: url("/images/awards2.JPG");
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerDiv {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
 .section1 {
     background-color: #717274;
     margin-top: 2.3em;
@@ -28,7 +71,7 @@ body {
     background-color: #F6F9FA;
 }
 
-.section {
+.section3 {
     color: whitesmoke;
 }
 
@@ -38,13 +81,13 @@ body {
 
 .section5 {
     color: whitesmoke;
-    position: relative;
     top: 10px;
 }
 
 .sectionBackground4 {
     background-color: #F6F9FA;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .sectionBackground5 {
@@ -117,6 +160,12 @@ h3 {
     margin: 0;
 }
 
+.titlestroke {
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+
+}
+
 p {
     left: 25%;
     margin-right: -50%;
@@ -130,7 +179,7 @@ h1 {
     text-transform: uppercase;
     line-height: 1.35em;
     font-weight: normal;
-    color: #DBDADA;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -169,6 +218,19 @@ blockquote p {
     hanging-punctuation: first;
     text-indent: -0.5em;
 }
+
+hr {
+    width: 70%;
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+    margin-bottom: 2em;
+    background-color: white;
+    height: 1px;
+    border: 0; 
+}
+
 
 
 /*------ NAV ------*/
@@ -211,6 +273,15 @@ ul {
     width: 100%;
 }
 
+/* ------ IMG ------*/
+
+
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+    margin-bottom: 2em;}
 
 /*------ FOOTER ------*/
 
