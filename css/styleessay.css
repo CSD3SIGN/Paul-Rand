@@ -20,7 +20,7 @@ body {
 }
 
 .parallax1 {
-    background-image: url("/images/thepaulrand.jpg");
+    background-image: url("/Paul-Rand/images/thepaulrand.jpg");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
