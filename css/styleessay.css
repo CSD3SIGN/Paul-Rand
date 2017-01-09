@@ -29,7 +29,7 @@ body {
 }
 
 .parallax3 {
-    background-image: url("/images/IBM2.jpg");
+    background-image: url("Paul-Rand/images/IBM2.jpg");
     min-height: 50vh;
     background-attachment: fixed;
     background-position: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .parallax4 {
-    background-image: url("/images/awards1.JPG");
+    background-image: url("Paul-Rand/images/awards1.JPG");
     min-height: 50vh;
     background-attachment: fixed;
     background-position: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .parallax5 {
-    background-image: url("/images/awards2.JPG");
+    background-image: url("Paul-Rand/images/awards2.JPG");
     min-height: 50vh;
     background-attachment: fixed;
     background-position: center;
